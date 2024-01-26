@@ -29,7 +29,7 @@ The metrics below are grabbed from GOOGLE MAPS API
 DistanceLastStopTo'SlowDriver'
 TravelTimeLastStopTo'SlowDriver'	
 
-Once we loop through all drivers, PANDAS dataframe exports the dataframe to an excel file
+Once we loop through all drivers, PANDAS dataframe is exported to an excel file
 
 
 
