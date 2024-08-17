@@ -1,6 +1,4 @@
 # Amazon-Project-1
-**All internal Amazon confidential information has been removed from the code. The code only contains publicly available information
-
 Summary: Returned_Drivers_Tracker.py finds out what time all the drivers from a specific delivery company delivered their last package & how far away they were from one of their struggling peers who they could have potentially went to help
 The script extracts 9 different data points & exports the report to an excel for managers to review & develop action plans to improve the operations
 
