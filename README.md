@@ -14,22 +14,22 @@ Following metrics for the 'Slow Driver' are scraped & stored in PANDAS dataframe
 RouteCode  
 LastStopAddress  
 LastStopTime  
-Delivery App login Time   	
+Delivery App login Time     	
 Planned End Time  
 
 Next, the script loops through all of the drivers, scrapes & stores the following metrics in PANDAS dataframe:  
 RouteCode  
 Driver Name  
-LastStopAddress        	
+LastStopAddress  
 LastStopTime  
-DistanceLastStopTo'SlowDriver'    	
-TravelTimeLastStopTo'SlowDriver'    	
+DistanceLastStopTo'SlowDriver'  
+TravelTimeLastStopTo'SlowDriver'      	
 App login Time  
-Planned End Time    
+Planned End Time      
 
 The metrics below are grabbed from GOOGLE MAPS API  
-DistanceLastStopTo'SlowDriver'  
-TravelTimeLastStopTo'SlowDriver'  	
+DistanceLastStopTo'SlowDriver'   
+TravelTimeLastStopTo'SlowDriver'    	
 
 Once we loop through all drivers, PANDAS dataframe is exported to an excel file
 
