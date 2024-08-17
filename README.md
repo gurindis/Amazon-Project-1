@@ -11,25 +11,25 @@ This python script opens up amazon website & filters by a specific delivery comp
 It then searches for the driver name who brought back most amount of packages (entered by the user). Let's call them 'Slow Driver' for the explaination below.  
 
 Following metrics for the 'Slow Driver' are scraped & stored in PANDAS dataframe:  
-RouteCode  
-LastStopAddress  
-LastStopTime  
-Delivery App login Time     	
-Planned End Time  
+>RouteCode  
+>LastStopAddress  
+>LastStopTime  
+>Delivery App login Time     	
+>Planned End Time  
 
 Next, the script loops through all of the drivers, scrapes & stores the following metrics in PANDAS dataframe:  
-RouteCode  
-Driver Name  
-LastStopAddress  
-LastStopTime  
-DistanceLastStopTo'SlowDriver'  
-TravelTimeLastStopTo'SlowDriver'      	
-App login Time  
-Planned End Time      
+>RouteCode  
+>Driver Name  
+>LastStopAddress  
+>LastStopTime  
+>DistanceLastStopTo'SlowDriver'  
+>TravelTimeLastStopTo'SlowDriver'      	
+>App login Time  
+>Planned End Time      
 
 The metrics below are grabbed from GOOGLE MAPS API  
-DistanceLastStopTo'SlowDriver'   
-TravelTimeLastStopTo'SlowDriver'    	
+>DistanceLastStopTo'SlowDriver'   
+>TravelTimeLastStopTo'SlowDriver'    	
 
 Once we loop through all drivers, PANDAS dataframe is exported to an excel file
 
