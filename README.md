@@ -14,7 +14,7 @@ Following metrics for the 'Slow Driver' are scraped & stored in PANDAS dataframe
 >RouteCode  
 >LastStopAddress  
 >LastStopTime  
->Delivery App login Time     	
+>Delivery App login Time   	
 >Planned End Time  
 
 Next, the script loops through all of the drivers, scrapes & stores the following metrics in PANDAS dataframe:  
@@ -23,7 +23,7 @@ Next, the script loops through all of the drivers, scrapes & stores the followin
 >LastStopAddress  
 >LastStopTime  
 >DistanceLastStopTo'SlowDriver'  
->TravelTimeLastStopTo'SlowDriver'      	
+>TravelTimeLastStopTo'SlowDriver'       	
 >App login Time  
 >Planned End Time      
 
